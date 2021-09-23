@@ -10,7 +10,7 @@ public class FirstController {
 	String n[]= {"James","Sharan","Hari"};
   @GetMapping("/greet")
   public String greet() {
-	  return "Hi!!! Spring boot is running with updated with pipeline. Hope this works";
+	  return "Hi!!! Spring boot is running with updated with pipeline Jenkins. Hope this work as usual";
   }
   
   @GetMapping("/greet2")
